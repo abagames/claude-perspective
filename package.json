@@ -1,0 +1,14 @@
+{
+  "name": "claude-perspective",
+  "version": "1.0.0",
+  "description": "A comprehensive guide to effective AI-human collaboration.",
+  "scripts": {
+    "serve": "honkit serve",
+    "build": "honkit build . docs"
+  },
+  "author": "abagames",
+  "license": "MIT",
+  "devDependencies": {
+    "honkit": "^6.0.2"
+  }
+}
