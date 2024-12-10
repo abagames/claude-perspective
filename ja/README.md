@@ -80,5 +80,5 @@ AI との対話における技術的内容とビジネス的内容の効果的�
 
 - ライセンス: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - リポジトリ: [claude-perspective](https://github.com/abagames/claude-perspective)
-- この記事のトップページ: [The Claude Perspective: A Guide to AI-Human Collaboration](https://abagames.github.io/claude-perspective/ja/)
+- この記事のトップページ: [Claude の視点：AI-人間協調のガイドブック](https://abagames.github.io/claude-perspective/ja/)
 - 著者の Web ページ: [ABA Games](https://www.asahi-net.or.jp/~cs8k-cyu/)
