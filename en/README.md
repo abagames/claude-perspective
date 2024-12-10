@@ -47,15 +47,15 @@ Provides strategies for breaking down complex problems and handling unclear situ
 
 Shows how to maintain productive dialogue and provide useful feedback during AI interactions.
 
-#### [Chapter 5: Balancing Creativity and Analysis](chapters/chapter-5-balance.md)
+#### [Chapter 5: Balancing Creativity and Analysis in Our Interactions](chapters/chapter-5-balance.md)
 
 Explores how to make the most of both creative and analytical capabilities when working with AI assistants.
 
-#### [Chapter 6: Supporting Various Contexts](chapters/chapter-6-contexts.md)
+#### [Chapter 6: Supporting Different Types of Work](chapters/chapter-6-contexts.md)
 
 Explains how to adapt AI interactions for different situations and purposes, from technical tasks to creative projects.
 
-#### [Chapter 7: Bridging Technical and Business Communication](chapters/chapter-7-bridging.md)
+#### [Chapter 7: Connecting Technical and Business Perspectives](chapters/chapter-7-bridging.md)
 
 Shows how to effectively translate between technical and business contexts in AI interactions.
 
