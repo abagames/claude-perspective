@@ -9,3 +9,5 @@
 - [Supporting Different Types of Work](./chapters/chapter-6-contexts.md)
 - [Connecting Technical and Business Perspectives](./chapters/chapter-7-bridging.md)
 - [Maintaining Clarity and Purpose](./chapters/chapter-8-clarity.md)
+- [Maintaining Clarity and Purpose](./chapters/chapter-8-clarity.md)
+- [Appendix A: Insider Tips from Claude](./chapters/appendix-a-tips.md)

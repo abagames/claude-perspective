@@ -9,3 +9,4 @@
 - [様々な状況での支援活用](./chapters/chapter-6-contexts.md)
 - [技術とビジネスの橋渡し](./chapters/chapter-7-bridging.md)
 - [継続的な改善と明確さの維持](./chapters/chapter-8-clarity.md)
+- [付録 A：Claude からの内部視点](./chapters/appendix-a-tips.md)
