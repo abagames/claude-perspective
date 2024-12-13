@@ -36,7 +36,7 @@ One countermeasure is to provide some form of requirements specification for the
 
 #### Excessive Use of Bullet Points
 
-Claude showed a tendency to abbreviate text and extensively use bullet points. While this might be influenced by English technical documentation, it's not necessarily optimal for Japanese documents. It's necessary to specify appropriate expression methods based on the document's purpose and content.
+Claude showed a tendency to abbreviate text and extensively use bullet points. It's necessary to specify appropriate expression methods based on the document's purpose and content.
 
 #### Claude's Self-Recognition of Capabilities
 
