@@ -47,12 +47,15 @@ While we instructed Claude to describe its own capabilities, it's unclear whethe
 These insights can serve as guidelines when collaborating with Claude and similar LLMs to create documents.
 
 1. Prior Requirements Definition
+
    By defining clear requirements specifications before beginning document creation, we can create more focused deliverables.
 
 2. Conscious Choice of Expression Methods
+
    Consider the balance between textual explanation and bullet points based on the document's purpose and content.
 
 3. Continuous Dialogue and Adjustment
+
    Deepen mutual understanding through dialogue with the LLM to create better deliverables.
 
 ### Conclusion
