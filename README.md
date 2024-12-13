@@ -6,63 +6,55 @@ English / [日本語](./README_ja.md)
 
 ---
 
-## Creating Better Documentation with LLMs: Lessons Learned from Working with Claude
+# Having Claude Create Its Own Guidebook
 
-I had collaborated with Claude on creating this guide. This project yielded valuable insights into the process of creating documentation with Large Language Models (LLMs).
+What constitutes an appropriate prompt for Claude? While there are various prompt engineering tips available, why not ask Claude itself? With this thought in mind, I asked:
 
-### An Unexpected Discovery: LLM Characteristics and Challenges
+> Please create a chapter structure discussing prompt quality from Claude 3.5 Sonnet's own perspective.
 
-This guide creation project actually had two objectives. The first was to create a useful guide, and the second was to explore methods for creating better documentation with Claude. As we progressed, we discovered some interesting characteristics of LLMs.
+After several exchanges, we created a [chapter structure](./llm-perspective-guide-with-intro.md).
 
-One particularly notable observation was the LLM's tendency to constantly suggest improvements. When evaluating whether the guide's content was sufficient for its purpose, Claude consistently proposed various enhancements. While this might seem beneficial at first glance, it actually made it difficult to determine when the content was "good enough."
+> Please create a prompt to write the guide content using this chapter structure.
 
-### Finding a Solution: Applying Software Development Methodologies
+Then, I created a [prompt](./llm-guide-writing-prompt.md) for the actual writing.
 
-This challenge led us to an interesting approach: applying requirements definition methods commonly used in software development to document creation. We found that establishing clear requirements specifications before starting the documentation could potentially offer several benefits:
+The resulting guidebook is [The Claude Perspective: A Guide to AI-Human Collaboration](https://abagames.github.io/claude-perspective/en/). The guidebook underwent multiple improvements through dialogue based on the output from the above prompts.
 
-- Establishing clear evaluation criteria
-- Defining sufficient scope
-- Setting objective quality indicators
+The resulting guide is easy to understand, with specific prompt examples. It's interesting to note how it expresses its approach to [handling complexity and ambiguity](https://abagames.github.io/claude-perspective/en/chapters/chapter-3-complexity.html), which it acknowledges as challenging, and what approaches it takes or would like humans to take.
 
-When we actually created the requirements specification, we were able to derive necessary requirements from the original purpose without being influenced by the existing guide content. This allowed for a more objective evaluation of the guide's content.
+In [Appendix A: Insider Tips from Claude - A Self-Reflective Analysis](https://abagames.github.io/claude-perspective/en/chapters/appendix-a-tips.html), Claude provides an even more self-analytical description. The challenges it identifies as needing to overcome, such as "risk of overconfidence in certain domains" and "challenges with extremely open-ended creative tasks," align well with users' experiences.
 
-### Additional Insights from Documentation with LLMs
+## Claude's Characteristics and Challenges
 
-The project revealed several other interesting findings.
+This guide creation project had two objectives: one was to create a useful guide itself, and the other was to explore methods for creating better documents with Claude. Through creating this guide, we discovered the following LLM characteristics.
 
-#### Prevalent Use of Bullet Points
+### Endless Improvement Suggestions
 
-We noticed that Claude tended to favor bullet points over extended prose. While this might reflect the influence of English technical documentation style, it's worth considering whether this approach is always optimal, particularly when the goal is to present complex ideas that might benefit from more narrative exposition.
+Claude tends to constantly propose improvements. Initially, when trying to evaluate whether the guide's content was sufficient for its purpose, Claude consistently suggested various improvements. While this might seem beneficial, it's also a drawback in that it cannot judge when the current guide is "sufficient."
 
-#### LLM Self-Awareness
+One countermeasure is to provide some form of requirements specification for the document. For example, we can present the initial prompt again and verify whether the current guide meets those requirements. However, even when evaluating based on requirements specifications, the LLM sometimes broadly interpreted the requirements themselves and proposed substantial modifications. There are limitations to control through requirements specifications.
 
-Another interesting discovery was that LLMs might not fully grasp the extent of their own capabilities. Our experience suggests that building mutual understanding through dialogue and exploring capabilities through trial and error may be more important than relying on the LLM's self-reported abilities.
+### Excessive Use of Bullet Points
 
-### Moving Forward with Documentation
+Claude showed a tendency to abbreviate text and extensively use bullet points. While this might be influenced by English technical documentation, it's not necessarily optimal for Japanese documents. It's necessary to specify appropriate expression methods based on the document's purpose and content.
 
-These insights offer valuable guidance for creating documentation with LLMs. Several key points emerge:
+### Claude's Self-Recognition of Capabilities
 
-1. Pre-defined Requirements
-   Starting with clear requirements specifications can help focus the document creation process.
+While we instructed Claude to describe its own capabilities, it's unclear whether this instruction was meaningful. The resulting guidebook comprehensively covers general information necessary for dialogue with LLMs, so it can be said to correctly describe capabilities to some extent. However, it might not be based on Claude's specific characteristics. Currently, there's no way to verify this.
 
-2. Conscious Style Choices
-   Consider the balance between narrative prose and structured lists based on the document's purpose and content.
+## Moving Forward with Document Creation
+
+These insights can serve as guidelines when collaborating with Claude and similar LLMs to create documents.
+
+1. Prior Requirements Definition
+   By defining clear requirements specifications before beginning document creation, we can create more focused deliverables.
+
+2. Conscious Choice of Expression Methods
+   Consider the balance between textual explanation and bullet points based on the document's purpose and content.
 
 3. Continuous Dialogue and Adjustment
-   Maintain ongoing communication with the LLM to deepen mutual understanding and improve outcomes.
+   Deepen mutual understanding through dialogue with the LLM to create better deliverables.
 
-### Remaining Challenges: Limitations of the Requirements Approach
+## Conclusion
 
-While creating requirements specifications appears to be a promising approach to documentation, our trials revealed new challenges. When evaluating against requirements, the LLM sometimes interpreted the specifications broadly, leading to proposals for extensive revisions. This suggests that controlling the scope through requirements specifications alone has its limitations.
-
-Several areas need further exploration and refinement:
-
-- Improving requirements specification methods
-- Establishing incremental revision processes
-- Developing explicit ways to limit the scope of changes
-
-### Conclusion
-
-While LLMs can be powerful collaborators in document creation, understanding their characteristics and learning to work with them effectively is crucial. Our experience has provided valuable insights into effective collaboration with LLMs, while also highlighting areas that need further development.
-
-We hope these insights and awareness of the challenges will help readers in their own documentation projects with LLMs.
+While Claude and other LLMs can be very powerful collaborators in document creation, it's important to understand their characteristics and use them appropriately. Through this experience, we gained several insights about effective collaboration with LLMs, but we also learned that further improvements are needed.
